@@ -8,7 +8,6 @@ import (
 )
 
 type Micrbus struct {
-	//读值数据点
 	mu        sync.Mutex
 	readpoint map[string]interface{}
 }
